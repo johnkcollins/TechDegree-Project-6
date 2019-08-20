@@ -4,7 +4,7 @@ h1,h2,h3,h4,h5,p{
 }
 
   h5{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Dosis', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
@@ -28,6 +28,7 @@ h1,h2,h3,h4,h5,p{
 
 .text-light{
   color: #666;
+  font-family: 'Dosis', sans-serif;
 }
 
 .button{
@@ -110,6 +111,7 @@ a:hover{
 .portfolio-index{
   margin: 0;
   padding: 10px 50px;
+  background-color: rgba(8, 86, 145, 0.75);
 }
 
   .portfolio-index .thumbnail{
@@ -122,10 +124,14 @@ a:hover{
 
   .portfolio-index .cell{
     margin-bottom: 15px;
+    box-shadow: 10px 10px 8px #000000;
+    background-color: white;
   }
 
     .portfolio-index .cell h5{
       letter-spacing: 1px;
+      font-family: 'Bree Serif', sans-serif;
+      text-align: center;
     }
 
 .portfolio-meta{
