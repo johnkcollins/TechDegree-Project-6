@@ -22,7 +22,7 @@
     {
       "id": "1",
       "project_name": "List Pagination and Filtering",
-      "description": "Divides a long list of students into a series of pages.  Each page has 10 students.  The pages are created dynamically, and a search field is created dynamically.",
+      "description": "Divides a long list of students into a series of pages.  The pages and a search field are created dynamically.",
       "technologies": [
         "JavaScript (vanilla)",
         "HTML",
@@ -42,7 +42,7 @@
     {
       "id": "2",
       "project_name": "Interactive Form",
-      "description": "JavaScript is used to enhance an interactive form.",
+      "description": "JavaScript is used to enhance an interactive form.  The name, email, and credit card fields are validated prior to form submission.  Some checkboxes have conflicting times and are disabled accordingly.  A total cost is displayed for all selected classes.",
       "technologies": [
         "JavaScript",
         "HTML",
@@ -65,7 +65,7 @@
     {
       "id": "3",
       "project_name": "Phrase Hunter",
-      "description": "A game displaying a random phrase that the user must guess.",
+      "description": "A game displaying a random phrase that the user must guess.  Incorrect guesses are tracked and the game ends when too many incorrect guesses have been made.  Winning and losing messages are displayed accordingly.",
       "technologies": [
         "JavaScript (vanilla)",
         "HTML",
@@ -87,7 +87,7 @@
     {
       "id": "4",
       "project_name": "Public API Request",
-      "description": "Generate an employee directory using a 3rd party API",
+      "description": "Generates an employee directory using a 3rd party API.  Uses a constructor to generate each card with the API data received.",
       "technologies": [
         "vanilla JavaScript",
         "HTML",
