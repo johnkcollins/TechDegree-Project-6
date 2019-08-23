@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const projects = require('../../data.json').projects;
+const projects = require('./data.json').projects;
 
 // Allows the use of PUG to render HTML templates
 app.set('view engine', 'pug');
@@ -28,8 +28,9 @@ app.get('/:id', (req, res, next) => {
       res.render('project', {project});
     } else {
     const err = new Error();
-    err.message = 'Page not found';
+    err.message = 'Sorry';
     err.status = '404';
+    err.stack = 'The page you are looking for cannot be found';
     res.status(404);
     next(err);
   }
