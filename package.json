@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/collins410/TechDegree-Project-6.git"
+    "url": "git+https://github.com/johnkcollins/TechDegree-Project-6.git"
   },
   "author": "j.k.collins410@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/collins410/TechDegree-Project-6/issues"
+    "url": "https://github.com/johnkcollins/TechDegree-Project-6/issues"
   },
-  "homepage": "https://github.com/collins410/TechDegree-Project-6#readme",
+  "homepage": "https://github.com/johnkcollins/TechDegree-Project-6#readme",
   "dependencies": {
     "express": "^4.17.1",
     "pug": "^2.0.4"
