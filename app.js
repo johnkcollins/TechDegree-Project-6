@@ -21,7 +21,7 @@ app.get('/about', (req, res) => {
 // and uses this data to dynamically build a project page using the project
 // specific data
 //An error handler is used to address any non-existent web page entries
-app.get('/:id', (req, res, next) => {
+app.get('/project/:id', (req, res, next) => {
   const { id } = req.params;
   const project = projects[id];
   if (project !== undefined) {
