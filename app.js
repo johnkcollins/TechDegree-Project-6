@@ -43,4 +43,6 @@ app.use((err, req, res, next) => {
 });
 
 //Crates a local server for the site to be viewed
-app.listen(3000,()=>{console.log('The app is listening on port 3000')});
+app.listen(process.env.PORT || 3000, () => {
+  console.log('The app is listening on port 3000')
+});
