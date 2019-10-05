@@ -43,6 +43,13 @@ app.use((err, req, res, next) => {
 });
 
 //Crates a local server for the site to be viewed
-app.listen(process.env.PORT || 3000, () => {
+// app.listen(process.env.PORT || 3000, () => {
+// });
+
+let port = process.env.PORT;
+if (port == null || port === "5000") {
+  port = 5000;
   console.log('The app is listening on port 3000')
-});
+
+}
+app.listen(port);
