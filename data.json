@@ -107,6 +107,30 @@
         "../images/empdir1200x550-1.jpg",
         "../images/empdir1200x550-2.jpg"
       ]
+    },
+    {
+      "id": "5",
+      "project_name": "Image Gallery App",
+      "description": "This Project uses the very popular React library to create an image gallery app. JSX is used to write markup-like syntax directly in the JS files and state is managed in a container component that passes data down to reusable stateless components.",
+      "technologies": [
+        "React",
+        "Create React App",
+        "JSX",
+        "MVC (Model, View, Controller)",
+        "React Router",
+        "Fetch API",
+        "Axios",
+        "Flickr API",
+        "CSS"
+      ],
+      "live_link": "https://johnkcollins.github.io/TechDegree-Project-7/",
+      "github_link": "https://github.com/johnkcollins/TechDegree-Project-7",
+      "image_urls": [
+        "../images/imggal550x550.jpg",
+        "../images/imggal1200x550.jpg",
+        "../images/imggal1200x550-1.jpg",
+        "../images/imggal1200x550-2.jpg"
+      ]
     }
   ]
 }

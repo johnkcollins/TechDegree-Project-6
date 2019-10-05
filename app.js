@@ -49,7 +49,7 @@ app.use((err, req, res, next) => {
 let port = process.env.PORT;
 if (port == null || port === "5000") {
   port = 5000;
-  console.log('The app is listening on port 3000')
+  console.log('The app is listening on port 5000')
 
 }
 app.listen(port);
