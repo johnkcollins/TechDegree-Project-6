@@ -131,6 +131,26 @@
         "../images/imggal1200x550-1.jpg",
         "../images/imggal1200x550-2.jpg"
       ]
+    },
+    {
+      "id": "6",
+      "project_name": "SQL Library",
+      "description": "In this project, I create a web application for listing, adding, updating, and deleting books in a library application.",
+      "technologies": [
+        "Javascript",
+        "Node.js",
+        "Express",
+        "Pug",
+        "SQL ORM Sequelize"
+      ],
+      "live_link": "https://github.com/johnkcollins/TechDegree-Project-8",
+      "github_link": "https://github.com/johnkcollins/TechDegree-Project-8",
+      "image_urls": [
+        "../images/SQLLIBRARY550x550.jpg",
+        "../images/SQLLIBRARY1200X550.jpg",
+        "../images/SQLLIBRARY1200X550-1.jpg",
+        "../images/SQLLIBRARY1200X550-2.jpg"
+      ]
     }
   ]
 }
