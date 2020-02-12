@@ -146,10 +146,30 @@
       "live_link": "https://github.com/johnkcollins/TechDegree-Project-8",
       "github_link": "https://github.com/johnkcollins/TechDegree-Project-8",
       "image_urls": [
-        "../images/sqllIBRARY550x550.jpg",
-        "../images/sqllIBRARY1200X550.jpg",
-        "../images/sqllIBRARY1200X550-1.jpg",
-        "../images/sqllIBRARY1200X550-2.jpg"
+        "../images/sqllibrary550x550.jpg",
+        "../images/sqllibrary1200X550.jpg",
+        "../images/sqllibrary1200X550-1.jpg",
+        "../images/sqllibrary1200X550-2.jpg"
+      ]
+    },
+    {
+      "id": "7",
+      "project_name": "Rest API",
+      "description": "In this project, I use the popular Express web application framework and a MongoDB database to create a REST API that lets users create, list, update, and delete items from a school database.",
+      "technologies": [
+        "Express",
+        "JavaScript",
+        "MongoDB",
+        "Authorization - basic-auth",
+        "Encryption - bcryyt.js"
+      ],
+      "live_link": "https://github.com/johnkcollins/TechDegree-Project-9",
+      "github_link": "https://github.com/johnkcollins/TechDegree-Project-9",
+      "image_urls": [
+        "../images/restapi550x550.jpg",
+        "../images/restapi1200X550.jpg",
+        "../images/restapi1200X550-1.jpg",
+        "../images/restapi1200X550-2.jpg"
       ]
     }
   ]
